@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="easySoft.co.id.uccapi">
+
+<uses-feature
+    android:name="android.hardware.camera"
+    android:required="false"/>
+<uses-feature
+    android:name="android.hardware.camera.autofocus"
+    android:required="false"/>
+<uses-feature
+    android:name="android.hardware.microphone"
+    android:required="false"/>
+<uses-feature
+    android:name="android.hardware.location"
+    android:required="false"/>
+<uses-feature
+    android:name="android.hardware.location.gps"
+    android:required="false"/>
+<uses-feature
+    android:name="android.hardware.location.network"
+    android:required="false"/>
+<uses-feature
+    android:name="android.hardware.screen.portrait"
+    android:required="false"/>
+<uses-feature
+    android:name="android.hardware.telephony"
+    android:required="false"/>
+<uses-feature
+    android:name="android.hardware.touchscreen"
+    android:required="false"/>
+
+<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+<uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+<uses-permission android:name="android.permission.WAKE_LOCK"/>
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.CAMERA"/>
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+<uses-permission android:name="android.permission.RECORD_AUDIO"/>
+<uses-permission android:name="android.permission.RECORD_VIDEO"/>
+<uses-permission android:name="android.permission.CALL_PHONE"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+<uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES"/>
+<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+
+<application>
+
+    <!--<service-->
+        <!--android:name="easySoft.co.id.CLM.UCX.CLMService"-->
+        <!--android:enabled="true"-->
+        <!--android:exported="false"></service>-->
+
+    <!--<receiver-->
+        <!--android:name="easySoft.co.id.CLM.UCX.CLMReceiver"-->
+        <!--android:enabled="true"-->
+        <!--android:exported="false">-->
+        <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.BOOT_COMPLETED" />-->
+            <!--<action android:name="android.net.conn.CONNECTIVITY_CHANGE" />-->
+            <!--<action android:name="android.net.wifi.WIFI_STATE_CHANGED" />-->
+            <!--<action android:name="android.net.wifi.STATE_CHANGE" />-->
+            <!--<action android:name="android.location.PROVIDERS_CHANGED" />-->
+            <!--<action android:name="android.intent.action.SCREEN_ON" />-->
+            <!--<action android:name="android.intent.action.SCREEN_OFF" />-->
+            <!--<action android:name="android.intent.action.ACTION_SHUTDOWN" />-->
+        <!--</intent-filter>-->
+    <!--</receiver>-->
+
+    <!--<activity-->
+    <!--android:name="easySoft.co.id.UCCAPITest.MainActivity"-->
+    <!--android:allowTaskReparenting="false"-->
+    <!--android:alwaysRetainTaskState="false"-->
+    <!--android:clearTaskOnLaunch="true"-->
+    <!--android:enabled="true"-->
+    <!--android:excludeFromRecents="false"-->
+    <!--android:exported="true"-->
+    <!--android:finishOnTaskLaunch="false"-->
+    <!--android:hardwareAccelerated="true"-->
+    <!--android:immersive="false"-->
+    <!--android:label="@string/app_name"-->
+    <!--android:launchMode="singleTask"-->
+    <!--android:multiprocess="false"-->
+    <!--android:noHistory="false"-->
+    <!--android:screenOrientation="portrait"-->
+    <!--android:stateNotNeeded="false">-->
+    <!--<intent-filter>-->
+    <!--<action android:name="android.intent.action.MAIN"/>-->
+    <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+    <!--</intent-filter>-->
+    <!--</activity>-->
+
+</application>
+
+</manifest>
